@@ -1,0 +1,1 @@
+javascript:(function()%7Bdocument.querySelectorAll('video').forEach(v %3D> %7B%0A    if (v.hasAttribute('disablePictureInPicture')) %7B%0A        v.removeAttribute('disablePictureInPicture')%3B%0A    %7D%0A%7D)%3B%7D)()%3B
